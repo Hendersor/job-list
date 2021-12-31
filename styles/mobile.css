@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --background: hsl(180, 52%, 96%);
+    --filter: hsl(180, 31%, 95%);
+    --text: hsl(180, 8%, 52%);
+    --feature: hsl(180, 14%, 20%);
+    --mainBack: hsl(180, 29%, 50%);
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Spartan', sans-serif;
+}
+
+.main-container{
+    border: 1px solid;
+    width: 100vw;
+    height: 100vh;
+    background: var(--background);
+}
+
+.job-container{
+    border: 1px solid;
+    width: 85%;
+    height: 300px;
+    margin:  auto;
+    background: white;
+    position: relative;
+}
+
+.job-container img{
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top: -12%;
+}
+
+.company h1,
+.tags p{
+    color: var(--mainBack);
+    font-size: 1.5rem;
+}
+
+.tags p{
+    font-weight: 700;
+}
+
+.company :nth-child(2){
+    border: 1px solid;
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--mainBack);
+    color: white;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.company :nth-child(3){
+    width: 100px;
+    border: 1px solid;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--feature);
+    color: white;
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.job-info h1{
+    font-size: 1.7rem;
+}
+
+.job-info p{
+    font-size: 1.5rem;
+    color: var(--text);
+}
+
+.divider{
+    width: 90%;
+    height: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.tags .tag{
+    border: 1px solid;
+    border: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    background-color: var(--filter);
+    border-radius: 5px;
+}
+
+.frontend{
+    width: 100px;
+
+}
+
+.senior{
+    width: 70px;
+}
+
+.html{
+    width: 70px;
+}
+
+.css{
+    width: 50px;
+}
+
+.js{
+    width: 110px;
+}
+
+
+
