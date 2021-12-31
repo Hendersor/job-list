@@ -22,23 +22,45 @@ html{
     width: 100vw;
     height: 100vh;
     background: var(--background);
+    margin-bottom: 50px;
 }
 
 .job-container{
-    border: 1px solid;
     width: 85%;
     height: 300px;
     margin:  auto;
     background: white;
-    position: relative;
+    position: relative; 
+    margin-top: 20px;
+    align-self: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .job-container img{
     width: 55px;
     height: 55px;
     position: absolute;
-    top: -12%;
+    top:-12%;
 }
+
+.company{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: flex-start;
+}
+
+.company h1{
+    margin-right: 20px;
+}
+
+
 
 .company h1,
 .tags p{
@@ -62,6 +84,8 @@ html{
     color: white;
     font-weight: 700;
     font-size: 1.3rem;
+    margin-right: 8px;
+    padding-top: 3px;
 }
 
 .company :nth-child(3){
@@ -77,10 +101,20 @@ html{
     font-weight: 700;
     font-size: 1.3rem;
     text-align: center;
+    padding-top: 3px;
+
+}
+
+.job-info{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .job-info h1{
     font-size: 1.7rem;
+    margin-bottom: 15px;
 }
 
 .job-info p{
@@ -88,14 +122,24 @@ html{
     color: var(--text);
 }
 
+.job-info p span{
+    margin: 0 5px;
+}
+
 .divider{
-    width: 90%;
+    width: 99%;
     height: 0;
     border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
 }
 
 .tags .tag{
-    border: 1px solid;
     border: 15px;
     display: flex;
     justify-content: center;
@@ -103,6 +147,8 @@ html{
     height: 30px;
     background-color: var(--filter);
     border-radius: 5px;
+    margin-right: 20px;
+    margin-bottom: 18px;
 }
 
 .frontend{
