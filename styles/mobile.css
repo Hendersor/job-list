@@ -165,8 +165,7 @@ html{
 
 .frontend,
 .fullstack,
-.backend,
-.django
+.backend
 {
     width: 100px;
 
@@ -177,15 +176,17 @@ html{
 .html,
 .react,
 .python,
-.ror,
-.vue
+.django,
+.Sass
 {
     width: 70px;
 }
 
 .css,
-.sass,
-.ruby{
+.ruby,
+.ror,
+.vue
+{
     width: 50px;
 }
 
