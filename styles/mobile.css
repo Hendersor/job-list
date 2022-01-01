@@ -18,10 +18,15 @@ html{
 }
 
 .main-container{
-    border: 1px solid;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background: var(--background);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.main-container :nth-child(9){
     margin-bottom: 50px;
 }
 
@@ -31,7 +36,7 @@ html{
     margin:  auto;
     background: white;
     position: relative; 
-    margin-top: 20px;
+    margin-top: 50px;
     align-self: center;
     padding: 20px;
     border-radius: 10px;
@@ -151,26 +156,44 @@ html{
     margin-bottom: 18px;
 }
 
-.frontend{
+
+.js,
+.mid{
+    width: 110px;
+   
+}
+
+.frontend,
+.fullstack,
+.backend,
+.django
+{
     width: 100px;
 
 }
 
-.senior{
+.senior,
+.junior,
+.html,
+.react,
+.python,
+.ror,
+.vue
+{
     width: 70px;
 }
 
-.html{
-    width: 70px;
-}
-
-.css{
+.css,
+.sass,
+.ruby{
     width: 50px;
 }
 
-.js{
-    width: 110px;
+.tags p{
+    cursor: pointer;
 }
+
+
 
 
 
