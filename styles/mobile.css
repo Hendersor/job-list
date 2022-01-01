@@ -17,6 +17,17 @@ html{
     font-family: 'Spartan', sans-serif;
 }
 
+.design{
+    width: 100%;
+    background-color: var(--mainBack);
+    height: 180px;
+}
+
+.design img{
+    width: 100%;
+    height: 100%;
+}
+
 .main-container{
     width: 100%;
     height: 100%;
@@ -26,7 +37,7 @@ html{
     justify-content: space-around;
 }
 
-.main-container :nth-child(9){
+.main-container :nth-child(10){
     margin-bottom: 50px;
 }
 
@@ -48,8 +59,8 @@ html{
 }
 
 .job-container img{
-    width: 55px;
-    height: 55px;
+    width:61px;
+    height: 61px;
     position: absolute;
     top:-12%;
 }
