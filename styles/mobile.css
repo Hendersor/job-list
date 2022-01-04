@@ -40,6 +40,8 @@ html{
     background: white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .design .off{
@@ -49,8 +51,25 @@ html{
 .on{
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+
 }
+
+ .tagList{
+    color: var(--mainBack);
+    font-size: 1.5rem;
+    border: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    background-color: var(--filter);
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
 
 .main-container{
     width: 100%;
