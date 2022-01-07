@@ -10,6 +10,7 @@
     --text: hsl(180, 8%, 52%);
     --feature: hsl(180, 14%, 20%);
     --mainBack: hsl(180, 29%, 50%);
+    --margin: 20px;
 }
 
 html{
@@ -115,6 +116,7 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 12px;
+    cursor: pointer;
 }
 
 
