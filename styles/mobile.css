@@ -44,6 +44,7 @@ html{
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
+    padding: 10px;
 }
 
 .design .off{
